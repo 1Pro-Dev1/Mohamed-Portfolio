@@ -1,0 +1,552 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mohamed Portfolio</title>
+    <link rel="icon" type="image/png" href="imgs/logo.png">
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;600;700;800&display=swap" rel="stylesheet">
+    <!-- CSS Links -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="cursor"></div><div class="dot"></div>
+    <div class="hero">
+        <div class="bg-shape"></div>
+        <nav class="navbar position-relative">
+            <div class="container">
+                <a class="navbar-brand" href="#">
+                    <img src="imgs/logo.png" alt="Mohamed" width="100%" height="75">
+                </a>
+                <div class="cv ms-auto">
+                    <button type="button" class="btn cursor-hover">Download CV</button>
+                </div>
+            </div>
+        </nav>
+
+        <main>
+            <div class="container position-relative">
+                <div class="row">
+                    <div class="col-lg-5 d-flex justify-content-center align-items-center main-photo d-block d-lg-none">
+                        <img src="imgs/mohamed.png" alt="Mohamed" class="img-fluid img">
+                    </div>
+                    <div class="col-lg-7">
+                        <h4>i'm</h4>
+                        <h1 class="fw-bold fs-md-2">Mohamed <br> Hossam</h1>
+                        <h3>A passionate Web Developer and Designer  <br> based in UAE</h3>
+                        <button type="button" class="btn cursor-hover more-inf">More Info</button>
+                    </div>
+                    <div class="col-lg-5 d-flex justify-content-center align-items-center main-photo d-none d-lg-block">
+                        <img src="imgs/mohamed.png" alt="Mohamed" class="img-fluid img">
+                    </div>
+                </div>
+            </div>
+            <div class="background">
+                <img src="imgs/b1.png" class="b b1" alt="">
+                <img src="imgs/b2.png" class="b b2" alt="">
+                <img src="imgs/b3.png" class="b b3" alt="">
+                <img src="imgs/b1.png" class="b b4" alt="">
+                <img src="imgs/b4.png" class="b b5" alt="">
+                <img src="imgs/b5.png" class="b b6" alt="">
+                <img src="imgs/b6.png" class="b b7" alt="">
+                <img src="imgs/b7.png" class="b b8" alt="">
+            </div>
+        </main>
+
+        <div class="links pc mb-5 d-none d-lg-block">
+            <div class="container">
+                <span class="box cursor-hover b1 about" data-sec="about-sec">
+                    <i class="fa-solid fa-scroll"></i>
+                    <h4 class="m-0">About</h4>
+                </span>
+                <span class="box cursor-hover b2 resume" data-sec="resume-sec">
+                    <i class="fa-solid fa-address-book"></i>
+                    <h4 class="m-0">Resume</h4>
+                </span>
+                <span class="box cursor-hover b3 port" data-sec="port-sec">
+                    <i class="fa-solid fa-briefcase"></i>
+                    <h4 class="m-0">Portfolio</h4>
+                </span>
+                <span class="box cursor-hover b5 service" data-sec="service-sec">
+                    <i class="fa-solid fa-gear"></i>
+                    <h4 class="m-0">Service</h4>
+                </span>
+                <span class="box cursor-hover b4 test" data-sec="testmonials-sec">
+                    <i class="fa-solid fa-message"></i>
+                    <h4 class="m-0">Testimonials</h4>
+                </span>
+                <span class="box cursor-hover b2 contact" data-sec="contact-sec">
+                    <i class="fa-solid fa-envelope"></i>
+                    <h4 class="m-0">Conatct</h4>
+                </span>
+            </div>
+        </div>
+    </div>
+    <div class="links mobile mb-5 d-block d-lg-none">
+        <div class="container">
+            <span class="box cursor-hover b1 about" data-sec="about-sec">
+                <i class="fa-solid fa-scroll"></i>
+                <h4 class="m-0">About</h4>
+            </span>
+            <span class="box cursor-hover b2 resume" data-sec="resume-sec">
+                <i class="fa-solid fa-address-book"></i>
+                <h4 class="m-0">Resume</h4>
+            </span>
+            <span class="box cursor-hover b3 port" data-sec="port-sec">
+                <i class="fa-solid fa-briefcase"></i>
+                <h4 class="m-0">Portfolio</h4>
+            </span>
+            <span class="box cursor-hover b5 service" data-sec="service-sec">
+                <i class="fa-solid fa-gear"></i>
+                <h4 class="m-0">Service</h4>
+            </span>
+            <span class="box cursor-hover b4 test" data-sec="testmonials-sec">
+                <i class="fa-solid fa-message"></i>
+                <h4 class="m-0">Testimonials</h4>
+            </span>
+            <span class="box cursor-hover b2 contact" data-sec="contact-sec">
+                <i class="fa-solid fa-envelope"></i>
+                <h4 class="m-0">Conatct</h4>
+            </span>
+        </div>
+    </div>
+    <div class="sections">
+        <div class="container">
+            <section class="about-sec w-100" style="display: none;">
+                <div class="row">
+                    <div class="col-lg-7 d-flex justify-content-center position-relative">
+                        <img src="imgs/mohamed2.jpeg" class="cursor-hover">
+                        <div class="data">
+                            <h6 class="text-white-50">Name</h6>
+                            <h5 class="text-white">Mohamed Hossam</h5>
+                            <hr class="text-white">
+                            <h6 class="text-white-50">Birth Date</h6>
+                            <h5 class="text-white">May 15, 2008</h5>
+                            <hr class="text-white">
+                            <h6 class="text-white-50">E-mail</h6>
+                            <h5 class="text-white">comingsoon@mail.com</h5>
+                            <hr class="text-white">
+                            <h6 class="text-white-50">Address</h6>
+                            <h5 class="text-white">Sharjah, UAE</h5>
+                            <hr class="text-white">
+                            <h6 class="text-white-50">Nationality</h6>
+                            <h5 class="text-white mb-0">Egyptian</h5>
+                        </div>
+                    </div>
+                    <div class="col-lg-5 sec-2">
+                        <div>
+                            <h3 class="text-main fw-semibold">About Me</h3>
+                            <h1 class="text-white mb-3">World leading web developer</h1>
+                            <h4 class="text-white-50 ">A passionate Web Developer and Designer based in UAE</h4>
+                            <h5 class="text-white">
+                                Hi! My name is Mohamed Hossam. I am a web developer and web designer, and I'm very passionate 
+                                and dedicated to my work. With almost 1 year of experience as a web developer and web designer, 
+                                I have acquired the skills and knowledge necessary to make your project a success.
+                            </h5>
+                            <button type="button" class="btn cursor-hover mt-5">Download CV</button>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="resume-sec w-100" style="display: none;">
+                <h3 class="text-main fw-semibold">Resume</h3>
+                <h1 class="text-white mb-3">Combination of Skill <br>& Experience</h1>
+                <div class="row">
+                    <div class="col-lg-6">
+                        <div class="title position-relative">
+                            <h3>Education</h3>
+                            <span class="shape"></span>
+                        </div>
+                        <div class="box mt-5">
+                            <div class="box-title">
+                                <div class="t-1">
+                                    <h3 class="text-white fw-semibold">Primary Stage</h3>
+                                    <span class="text-white-50">Al-Shola School</span>
+                                </div>
+                                <div class="year text-white">
+                                    2015 - 2020
+                                </div>
+                            </div>
+                            <p class="mt-3 text-white">
+                                Studying Primary Stage at Shola School was also my 
+                                first year in UAE in 2015, and I learned there until 
+                                the start of the pandemic in 2020.
+                            </p>
+                        </div>
+                        <div class="box mt-5">
+                            <div class="box-title">
+                                <div class="t-1">
+                                    <h3 class="text-white fw-semibold">Preparatory Stage</h3>
+                                    <span class="text-white-50">Egyptian Virtual School</span>
+                                </div>
+                                <div class="year text-white">
+                                    2020 - running
+                                </div>
+                            </div>
+                            <p class="mt-3 text-white">
+                                after the pandemic started I had to move to a new school my 
+                                new school is an online school and I still learn in it till today.
+                            </p>
+                        </div>
+                        <div class="title position-relative">
+                            <h3>Experience</h3>
+                            <span class="shape"></span>
+                        </div>
+                        <div class="box mt-5">
+                            <div class="box-title">
+                                <div class="t-1">
+                                    <h3 class="text-white fw-semibold">The Start</h3>
+                                    <span class="text-white-50">Web Development</span>
+                                </div>
+                                <div class="year text-white">
+                                    2020 - 2021
+                                </div>
+                            </div>
+                            <p class="mt-3 text-white">
+                                in 2020 while the pandemic I started to be interested in programming 
+                                I looked at different ways to start I tried much stuff like an android 
+                                app developing, games developing, and web development. and I liked web 
+                                development more soo I began self-learning through youtube but I wasn't efficient.
+                            </p>
+                        </div>
+                        <div class="box mt-5">
+                            <div class="box-title">
+                                <div class="t-1">
+                                    <h3 class="text-white fw-semibold">Game Changer</h3>
+                                    <span class="text-white-50">Web Development</span>
+                                </div>
+                                <div class="year text-white">
+                                    2021 - running
+                                </div>
+                            </div>
+                            <p class="mt-3 text-white">
+                                in 2021 my dad notice my passionate in programming so he brought an instructor to help 
+                                me in my my interests and it really helped me and i become more efficient than ever.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 bor">
+                        <div class="title position-relative">
+                            <h3>Personal Skills</h3>
+                            <span class="shape"></span>
+                        </div>
+                        <div class="bar mt-5 position-relative">
+                            <h4 class="text-white mb-3 fw-semibold">Time Mangement</h4>
+                            <span class="position-absolute text-main" style="right: 25%;">75%</span>
+                            <div class="p-bar mb-1" style="width: 75%;"></div>
+                            <div class="main-bar"></div>
+                        </div>
+                        <div class="bar mt-4 position-relative">
+                            <h4 class="text-white mb-3 fw-semibold">Effeciency</h4>
+                            <span class="position-absolute text-main" style="right: 10%;">90%</span>
+                            <div class="p-bar mb-1" style="width: 90%;"></div>
+                            <div class="main-bar"></div>
+                        </div>
+                        <div class="bar mt-4 position-relative">
+                            <h4 class="text-white mb-3 fw-semibold">Intigrity</h4>
+                            <span class="position-absolute text-main" style="right: 10%;">90%</span>
+                            <div class="p-bar mb-1" style="width: 90%;"></div>
+                            <div class="main-bar"></div>
+                        </div>
+                        <div class="title position-relative">
+                            <h3>Programming Skills</h3>
+                            <span class="shape"></span>
+                        </div>
+                        <div class="bar mt-5 position-relative">
+                            <h4 class="text-white mb-3 fw-semibold">HTML</h4>
+                            <span class="position-absolute text-main" style="right: 5%;">95%</span>
+                            <div class="p-bar mb-1" style="width: 95%;"></div>
+                            <div class="main-bar"></div>
+                        </div>
+                        <div class="bar mt-4 position-relative">
+                            <h4 class="text-white mb-3 fw-semibold">CSS</h4>
+                            <span class="position-absolute text-main" style="right: 15%;">85%</span>
+                            <div class="p-bar mb-1" style="width: 85%;"></div>
+                            <div class="main-bar"></div>
+                        </div>
+                        <div class="bar mt-4 position-relative">
+                            <h4 class="text-white mb-3 fw-semibold">JavaScript</h4>
+                            <span class="position-absolute text-main" style="right: 20%;">80%</span>
+                            <div class="p-bar mb-1" style="width: 80%;"></div>
+                            <div class="main-bar"></div>
+                        </div>
+                        <div class="bar mt-4 position-relative">
+                            <h4 class="text-white mb-3 fw-semibold">More To Learn</h4>
+                            <span class="position-absolute text-main" style="right: 0%;">100%</span>
+                            <div class="p-bar mb-1" style="width: 100%;"></div>
+                            <div class="main-bar"></div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="port-sec w-100" style="display: none;">
+                <h3 class="text-main fw-semibold">Portfolio</h3>
+                <h1 class="text-white mb-3">My works that I did<br>for clients</h1>
+                <div class="row mt-5">
+                    <div class="col-lg-4 col-md-5 col-sm-6 col-xs-12">
+                        <div class="box">
+                            <a href="https://1pro-dev1.github.io/Bebek-Website-V2/" target="_blank" class="cursor-hover"></a>
+                            <div class="text">
+                                <h4>Bebek® Website</h4>
+                                <h6>Baby Products</h6>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="service-sec w-100" style="display: none;">
+                <h3 class="text-main fw-semibold">Service</h3>
+                <h1 class="text-white mb-3">Never compromise<br>with quality</h1>
+                <div class="row mt-5 pt-5">
+                    <div class="col-lg-4 col-md-6 col-sm-12">
+                        <div class="box text-center cursor-hover">
+                            <i class="fa-solid fa-wand-magic-sparkles fa-3x mt-3"></i>
+                            <h4 class="text-white fw-bold mt-5">Unique</h4>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-sm-12 mt-4 mt-md-0">
+                        <div class="box text-center cursor-hover">
+                            <i class="fa-solid fa-mobile-screen fa-3x mt-3"></i>
+                            <h4 class="text-white fw-bold mt-5">Responsive</h4>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-sm-12 mt-4 mt-lg-0">
+                        <div class="box text-center cursor-hover">
+                            <i class="fa-brands fa-bootstrap fa-3x mt-3"></i>
+                            <h4 class="text-white fw-bold mt-5">Boostarp Used</h4>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-sm-12 mt-4">
+                        <div class="box text-center cursor-hover">
+                            <i class="fa-solid fa-thumbs-up fa-3x mt-3"></i>
+                            <h4 class="text-white fw-bold mt-5">Efficient</h4>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-sm-12 mt-4">
+                        <div class="box text-center cursor-hover">
+                            <i class="fa-solid fa-lightbulb fa-3x mt-3"></i>
+                            <h4 class="text-white fw-bold mt-5">Creative</h4>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-sm-12 mt-4">
+                        <div class="box text-center cursor-hover">
+                            <i class="fa-solid fa-truck-fast fa-3x mt-3"></i>
+                            <h4 class="text-white fw-bold mt-5">Fast</h4>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="testmonials-sec w-100" style="display: none;">
+                <h3 class="text-main fw-semibold">Testimonials</h3>
+                <h1 class="text-white mb-3">What people say<br>about me</h1>
+                <div id="testomnials-car" class="carousel slide d-none d-lg-block" data-bs-ride="true">
+                    <div class="carousel-indicators">
+                        <button type="button" data-bs-target="#testomnials-car" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                        <button type="button" data-bs-target="#testomnials-car" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                        <button type="button" data-bs-target="#testomnials-car" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                    </div>
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <div class="row">
+                                <div class="col-6">
+                                    <div class="box ms-4">
+                                        <p class="text-white-50 content">1 Lorem ipsum dolor sit amet consectetur, 
+                                            adipisicing elit. Veritatis, quas nemo? Doloremque 
+                                            eos ex quis, iure fugiat nulla amet ipsa voluptatem
+                                        </p>
+                                        <div class="foot mt-4">
+                                            <div class="img"></div>
+                                            <p class="m-0 ms-3 fs-4 text-white fw-semibold">Jhon Doeh</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-6">
+                                    <div class="box me-4">
+                                        <p class="text-white-50 content">2 Lorem ipsum dolor sit amet consectetur, 
+                                            adipisicing elit. Veritatis, quas nemo? Doloremque 
+                                            eos ex quis, iure fugiat nulla amet ipsa voluptatem
+                                        </p>
+                                        <div class="foot mt-4">
+                                            <div class="img"></div>
+                                            <p class="m-0 ms-3 fs-4 text-white fw-semibold">Jhon Doeh</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="row">
+                                <div class="col-6">
+                                    <div class="box ms-4">
+                                        <p class="text-white-50 content">3 Lorem ipsum dolor sit amet consectetur, 
+                                            adipisicing elit. Veritatis, quas nemo? Doloremque 
+                                            eos ex quis, iure fugiat nulla amet ipsa voluptatem
+                                        </p>
+                                        <div class="foot mt-4">
+                                            <div class="img"></div>
+                                            <p class="m-0 ms-3 fs-4 text-white fw-semibold">Jhon Doeh</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-6">
+                                    <div class="box me-4">
+                                        <p class="text-white-50 content">4 Lorem ipsum dolor sit amet consectetur, 
+                                            adipisicing elit. Veritatis, quas nemo? Doloremque 
+                                            eos ex quis, iure fugiat nulla amet ipsa voluptatem
+                                        </p>
+                                        <div class="foot mt-4">
+                                            <div class="img"></div>
+                                            <p class="m-0 ms-3 fs-4 text-white fw-semibold">Jhon Doeh</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="row">
+                                <div class="col-6">
+                                    <div class="box ms-4">
+                                        <p class="text-white-50 content">5 Lorem ipsum dolor sit amet consectetur, 
+                                            adipisicing elit. Veritatis, quas nemo? Doloremque 
+                                            eos ex quis, iure fugiat nulla amet ipsa voluptatem
+                                        </p>
+                                        <div class="foot mt-4">
+                                            <div class="img"></div>
+                                            <p class="m-0 ms-3 fs-4 text-white fw-semibold">Jhon Doeh</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-6">
+                                    <div class="box me-4">
+                                        <p class="text-white-50 content">6 Lorem ipsum dolor sit amet consectetur, 
+                                            adipisicing elit. Veritatis, quas nemo? Doloremque 
+                                            eos ex quis, iure fugiat nulla amet ipsa voluptatem
+                                        </p>
+                                        <div class="foot mt-4">
+                                            <div class="img"></div>
+                                            <p class="m-0 ms-3 fs-4 text-white fw-semibold">Jhon Doeh</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div id="testomnials-car-phone" class="carousel slide d-block d-lg-none" data-bs-ride="true">
+                    <div class="carousel-indicators mt-5">
+                        <button type="button" data-bs-target="#testomnials-car-phone" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                        <button type="button" data-bs-target="#testomnials-car-phone" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                        <button type="button" data-bs-target="#testomnials-car-phone" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                        <button type="button" data-bs-target="#testomnials-car-phone" data-bs-slide-to="3" aria-label="Slide 4"></button>
+                        <button type="button" data-bs-target="#testomnials-car-phone" data-bs-slide-to="4" aria-label="Slide 5"></button>
+                        <button type="button" data-bs-target="#testomnials-car-phone" data-bs-slide-to="5" aria-label="Slide 6"></button>
+                    </div>
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <div class="box">
+                                <p class="text-white-50 content">1 Lorem ipsum dolor sit amet consectetur, 
+                                        adipisicing elit. Veritatis, quas nemo? Doloremque 
+                                        eos ex quis, iure fugiat nulla amet ipsa voluptatem
+                                </p>
+                                <div class="foot mt-4">
+                                    <div class="img"></div>
+                                    <p class="m-0 ms-3 fs-4 text-white fw-semibold">Jhon Doeh</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="box">
+                                <p class="text-white-50 content">2 Lorem ipsum dolor sit amet consectetur, 
+                                        adipisicing elit. Veritatis, quas nemo? Doloremque 
+                                        eos ex quis, iure fugiat nulla amet ipsa voluptatem
+                                </p>
+                                <div class="foot mt-4">
+                                    <div class="img"></div>
+                                    <p class="m-0 ms-3 fs-4 text-white fw-semibold">Jhon Doeh</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="box">
+                                <p class="text-white-50 content">3 Lorem ipsum dolor sit amet consectetur, 
+                                        adipisicing elit. Veritatis, quas nemo? Doloremque 
+                                        eos ex quis, iure fugiat nulla amet ipsa voluptatem
+                                </p>
+                                <div class="foot mt-4">
+                                    <div class="img"></div>
+                                    <p class="m-0 ms-3 fs-4 text-white fw-semibold">Jhon Doeh</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="box">
+                                <p class="text-white-50 content">4 Lorem ipsum dolor sit amet consectetur, 
+                                        adipisicing elit. Veritatis, quas nemo? Doloremque 
+                                        eos ex quis, iure fugiat nulla amet ipsa voluptatem
+                                </p>
+                                <div class="foot mt-4">
+                                    <div class="img"></div>
+                                    <p class="m-0 ms-3 fs-4 text-white fw-semibold">Jhon Doeh</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="box">
+                                <p class="text-white-50 content">5 Lorem ipsum dolor sit amet consectetur, 
+                                        adipisicing elit. Veritatis, quas nemo? Doloremque 
+                                        eos ex quis, iure fugiat nulla amet ipsa voluptatem
+                                </p>
+                                <div class="foot mt-4">
+                                    <div class="img"></div>
+                                    <p class="m-0 ms-3 fs-4 text-white fw-semibold">Jhon Doeh</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="box">
+                                <p class="text-white-50 content">6 Lorem ipsum dolor sit amet consectetur, 
+                                        adipisicing elit. Veritatis, quas nemo? Doloremque 
+                                        eos ex quis, iure fugiat nulla amet ipsa voluptatem
+                                </p>
+                                <div class="foot mt-4">
+                                    <div class="img"></div>
+                                    <p class="m-0 ms-3 fs-4 text-white fw-semibold">Jhon Doeh</p>
+                                </div>
+                            </div>
+                        </div>
+                        
+                </div>
+            </section>
+            <section class="contact-sec w-100" style="display: none;">
+                <h3 class="text-main fw-semibold">Contact Me</h3>
+                <h1 class="text-white mb-3">Contact me to get<br>your work done</h1>
+                <div class="content w-100 mt-5">
+                    <div class="box mail cursor-hover">
+                        <i class="fa-solid fa-envelope fa-4x"></i>
+                        <a href="mailto:progmoham@gmail.com" class="cursor-hover">progmoham@gmail.com</a>
+                    </div>
+                    <div class="box telegram cursor-hover">
+                        <i class="fa-brands fa-telegram fa-4x"></i>
+                        <a href="https://t.me/Mohamed_Hossam_EG" class="cursor-hover" target="_blank">@Mohamed_Hossam_EG</a>
+                    </div>
+                </div>
+                <p class="text-center text-white-50 mt-5 mb-4">or</p>
+                <div class="else">
+                    <a href="https://mostaql.com/u/mohamed_hos" target="_blank"><img src="imgs/mostaql.svg" class="cursor-hover" alt=""></a>
+                    <a href="https://khamsat.com/user/mohammed_hossam_15" target="_blank"><img src="imgs/khamsat.png" class="cursor-hover" alt=""></a>
+                </div>
+            </section>
+        </div>
+    </div>
+    <!-- JS Links -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.min.js" integrity="sha384-cuYeSxntonz0PPNlHhBs68uyIAVpIIOZZ5JqeqvYYIcEL727kskC66kF92t6Xl2V" crossorigin="anonymous"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
