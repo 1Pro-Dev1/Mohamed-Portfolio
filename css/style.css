@@ -9,6 +9,7 @@ body{
 
 :root{
     --main-color: #263D67;
+    /* --main-color: #304977; */
 }
 
 img{
@@ -593,7 +594,7 @@ main .background .b8{
 }
 
 .sections .port-sec .box{
-    background: url("../imgs/bebek.jpg") red;
+    background: url("../imgs/bebek.jpg") rgb(26, 26, 26);
     width: 100%;
     height: 200px;
     background-position: center;
@@ -689,7 +690,7 @@ main .background .b8{
 .sections .testmonials-sec .carousel-inner .box .foot .img{
     width: 50px;
     height: 50px;
-    background: url("../imgs/testmonials.jpg") red;
+    background: url("../imgs/testmonials.jpg") rgb(26, 26, 26);
     background-position: center;
     background-size: cover;
     border-radius: 50%;
@@ -734,22 +735,17 @@ main .background .b8{
     margin-bottom: 50px;
 }
 
-.contact-sec .content{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-around;
-}
-
-.contact-sec .content .box{
+.contact-sec  .box{
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     gap: 10px;
+    text-decoration: none;
+    color: white;
 }
 
-.contact-sec .content .box i{
+.contact-sec .box i{
     color: white;
     padding: 70px;
     display: flex;
@@ -762,11 +758,6 @@ main .background .b8{
     background-color: var(--main-color);
     pointer-events: none;
     box-shadow: 0 0 20px 4px #00000078;
-}
-
-.contact-sec .content .box a{
-    text-decoration: none;
-    color: white;
 }
 
 .contact-sec .else{
