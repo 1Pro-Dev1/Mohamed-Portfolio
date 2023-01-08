@@ -115,6 +115,28 @@ img{
     background-color: #395381;
     color: white;
 }
+.navbar .social a{
+    text-decoration: none;
+}
+
+.navbar .social{
+    display: flex;
+    gap: 15px;
+}
+
+.navbar .social i{
+    color: white;
+    padding: 20px;
+    font-size: 23px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    width: 15px;
+    height: 15px;
+    text-align: center;
+    background-color: var(--main-color);
+}
 
 /* Background Shape */
 
@@ -594,7 +616,7 @@ main .background .b8{
 }
 
 .sections .port-sec .box{
-    background: url("../imgs/bebek.jpg") rgb(26, 26, 26);
+    background: url("../imgs/bebek.jpg") #5c5d64;
     width: 100%;
     height: 200px;
     background-position: center;
@@ -690,7 +712,7 @@ main .background .b8{
 .sections .testmonials-sec .carousel-inner .box .foot .img{
     width: 50px;
     height: 50px;
-    background: url("../imgs/testmonials.jpg") rgb(26, 26, 26);
+    background: url("../imgs/testmonials.jpg") #5c5d64;
     background-position: center;
     background-size: cover;
     border-radius: 50%;
