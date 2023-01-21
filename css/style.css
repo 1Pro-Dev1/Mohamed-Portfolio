@@ -124,7 +124,7 @@ img{
     gap: 15px;
 }
 
-.navbar .social i{
+.navbar .social i.social{
     color: white;
     padding: 20px;
     font-size: 23px;
@@ -136,6 +136,18 @@ img{
     height: 15px;
     text-align: center;
     background-color: var(--main-color);
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@200;300;400;600;700;800&display=swap');
+
+.hero div.social{
+    align-items: center;
+}
+
+.hero div.social .lang{
+    color: white;
+    font-size: 20px;
+    font-family: 'Cairo', sans-serif;
 }
 
 /* Background Shape */
@@ -874,3 +886,4 @@ main .background .b8{
     display: inline-block;
     position: static;
 }
+

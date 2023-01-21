@@ -1,0 +1,58 @@
+body{
+    font-family: 'Cairo', sans-serif;
+}
+
+body .links span i{
+    transform: translateX(5px);
+}
+
+body .links span:hover h4{
+    right: 0;
+}
+
+body .links h4{
+    right: 110px;
+}
+
+.links .box.active h4{
+    right: 0;
+}
+
+.arabic .body .ab1:hover,
+.arabic .body .links .ab1.active{
+    width: 70px
+}
+
+.links.pc .box.b1:hover,
+.links.pc .box.b1.active{
+    width: 180px;
+}
+
+.links.pc .box.b2:hover,
+.links.pc .box.b2.active{
+    width: 200px;
+}
+
+.links.pc .box.b3:hover,
+.links.pc .box.b3.active{
+    width: 215px;
+}
+
+@media (max-width: 992px){
+    .sections .about-sec .row {
+        flex-direction: column;
+    }
+}
+
+.sections .resume-sec .title h3{
+    padding-left: 0;
+    padding-right: 40px;
+}
+
+.sections .resume-sec .title .shape{
+    right: 0%;
+}
+
+.sections .col-lg-6.bor{
+    border: none;
+}
