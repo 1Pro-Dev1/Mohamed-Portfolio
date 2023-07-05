@@ -7,6 +7,10 @@ body{
     overflow-x: hidden;
 }
 
+.pac-font{
+    font-family: 'Pacifico', cursive;
+}
+
 :root{
     --main-color: #263D67;
     /* --main-color: #304977; */
@@ -541,7 +545,6 @@ main .background .b8{
 
 .sections .about-sec h1{
     font-size: 50px;
-    font-weight: bold;
 }
 
 .sections .about-sec button{
